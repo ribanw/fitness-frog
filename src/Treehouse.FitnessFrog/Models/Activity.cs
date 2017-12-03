@@ -10,16 +10,16 @@
         /// </summary>
         public enum ActivityType
         {
-            Basketball = 1,
-            Biking = 2,
-            Hiking = 3,
+            Biking = 1,
+            Hiking = 2,
+            Juggling = 3,
             Kayaking = 4,
-            PokemonGo = 5,
-            Running = 6,
-            Skiing = 7,
-            Swimming = 8,
-            Walking = 9,
-            WeightLifting = 10
+            Running = 5,
+            Skiing = 6,
+            Swimming = 7,
+            Walking = 8,
+            WeightLifting = 9,
+            Yoga = 10
         }
 
         /// <summary>

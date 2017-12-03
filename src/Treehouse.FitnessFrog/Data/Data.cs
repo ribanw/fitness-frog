@@ -36,16 +36,16 @@ namespace Treehouse.FitnessFrog.Data
             // so we can reference them when creating the entries collection.
             var activities = new List<Activity>()
             {
-                new Activity(Activity.ActivityType.Basketball),
                 new Activity(Activity.ActivityType.Biking),
                 new Activity(Activity.ActivityType.Hiking),
+                new Activity(Activity.ActivityType.Juggling),
                 new Activity(Activity.ActivityType.Kayaking),
-                new Activity(Activity.ActivityType.PokemonGo, "Pokemon Go"),
                 new Activity(Activity.ActivityType.Running),
                 new Activity(Activity.ActivityType.Skiing),
                 new Activity(Activity.ActivityType.Swimming),
                 new Activity(Activity.ActivityType.Walking),
-                new Activity(Activity.ActivityType.WeightLifting, "Weight Lifting")
+                new Activity(Activity.ActivityType.WeightLifting, "Weight Lifting"),
+                new Activity(Activity.ActivityType.Yoga)
             };
 
             var entries = new List<Entry>()
@@ -59,7 +59,7 @@ namespace Treehouse.FitnessFrog.Data
                 new Entry(7, 2016, 7, 14, Activity.ActivityType.Biking, 10.0),
                 new Entry(8, 2016, 7, 15, Activity.ActivityType.Walking, 28.6),
                 new Entry(9, 2016, 7, 16, Activity.ActivityType.Biking, 12.7),
-                new Entry(10, 2016, 7, 16, Activity.ActivityType.PokemonGo, 23.4)
+                new Entry(10, 2016, 7, 16, Activity.ActivityType.Juggling, 23.4)
             };
 
             Activities = activities;
